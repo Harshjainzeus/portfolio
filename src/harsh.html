@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download Pronunciation - Harsh Jain</title>
+</head>
+<body>
+  <button onclick="speak()">🔊 Play</button>
+  <button onclick="recordAndDownload()">⬇️ Download</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/recorderjs/0.1.0/recorder.min.js"></script>
+  <script>
+    function speak() {
+      const msg = new SpeechSynthesisUtterance("Harsh Jain");
+      msg.lang = "en-IN"; // Indian accent
+      msg.rate = 1;
+      msg.pitch = 1;
+      window.speechSynthesis.speak(msg);
+    }
+
+    async function recordAndDownload() {
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const destination = audioContext.createMediaStreamDestination();
+      const recorder = new Recorder(audioContext.createMediaStreamSource(destination.stream));
+
+      // Speak text but also route audio
+      const utterance = new SpeechSynthesisUtterance("Harsh Jain");
+      const synth = window.speechSynthesis;
+
+      // Connect speech output into destination
+      const source = audioContext.createMediaStreamSource(destination.stream);
+      recorder.record();
+
+      synth.speak(utterance);
+
+      utterance.onend = async () => {
+        recorder.stop();
+
+        recorder.exportWAV(function (blob) {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "harsh_jain.wav"; // WAV (can convert to MP3 if needed)
+          a.click();
+        });
+      };
+    }
+  </script>
+</body>
+</html>
