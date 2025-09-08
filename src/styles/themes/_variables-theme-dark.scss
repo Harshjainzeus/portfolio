@@ -31,29 +31,30 @@
 
 @import "theme-variables-builder";
 
-$primary: #056dad35;
-$secondary: #a4afb5;
-$dark: #161616;
-$danger: #fdd2d2;
-$muted: #6c757d;
+$primary: #6c85a2;           // Strong, vibrant navy blue for main accents
+$secondary: #a4afb5;         // Cool neutral for secondary elements
+$dark: #161b22;              // Deep navy-black for strong background contrast
+$danger: #fdd2d2;            // Gentle red for warnings/errors
+$muted: #6c757d;             // Soft gray for muted content
 
-$base-bg: #0c0c0c;
-$base-bg-light: #161616;
-$base-bg-dark: #090909;
+$base-bg: #0c1624;           // Navy-infused very dark background
+$base-bg-light: #1a2a41;     // Lighter navy for surfaces and cards
+$base-bg-dark: #090e16;      // Deepest navy-black for extra separation
 
-$texts: #EEEEEE;
-$texts-inverted: #111111;
+$texts: #f5faff;             // Highly visible off-white for main text
+$texts-inverted: #002147;    // Deep blue for text on light/alert surfaces
 
-$base-container-bg: #181818;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
-$base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
-$empty-accent: #131313;
+$base-container-bg: #182a3a; // Slightly lighter navy for containers/cards
+$base-popover-bg: #101b2a;   // Dark navy for modals/popovers
+$base-boards: lighten($base-container-bg, 8%);
+$base-info-badges: lighten($dark, 8%);
+$empty: darken($base-container-bg, 4%);
+$empty-accent: #14203f;      // Muted blue accent, for empty states and skeletons
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
+$borders: #294364;           // Distinct blue border for separation
+$scrollbar-track: #131b2b;   // Navy track for scrollbar
+$scrollbar-thumb: #4672b9;   // Bright navy thumb for excellent visibility
+
 
 :root {
     @include build-theme(

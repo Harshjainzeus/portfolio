@@ -22,32 +22,7 @@
             "name_pronunciation_ipa": "/harsh jain/",
             "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
         },
-        "fr": {
-            "localized_name": "Harsh Jain",
-            "localized_name_stylized": "<strong>[[Harsh {{Jain}}]]</strong>",
-            "status_message_available_for_freelance": "Disponible pour le freelance !",
-            "roles": [
-              "Développeur Backend",
-              "Développeur Frontend",
-              "Designer UX",
-              "Ingénieur ML"
-            ],
-            "name_pronunciation_ipa": "/aʁʃ ʒɛ̃/",
-            "name_pronunciation_audio_url": "audio/french-name-pronunciation.mp3"
-          },
-          "es": {
-            "localized_name": "Harsh Jain",
-            "localized_name_stylized": "<strong>[[Harsh {{Jain}}]]</strong>",
-            "status_message_available_for_freelance": "¡Disponible para trabajo freelance!",
-            "roles": [
-              "Desarrollador Backend",
-              "Desarrollador Frontend",
-              "Diseñador UX",
-              "Ingeniero de ML"
-            ],
-            "name_pronunciation_ipa": "/aɾʃ xaˈin/",
-            "name_pronunciation_audio_url": "audio/spanish-name-pronunciation.mp3"
-          },
+       
           "hi": {
             "localized_name": "हर्ष जैन",
             "localized_name_stylized": "<strong>[[हर्ष {{जैन}}]]</strong>",

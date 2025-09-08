@@ -1,6 +1,6 @@
 {
     "developerSettings": {
-        "debugMode": false,
+        "debugMode": true,
         "fakeEmailRequests": false,
         "stayOnThePreloaderScreen": false,
         "version": "2.0.3"
@@ -47,9 +47,6 @@
             "dark": true,
             "locales": {
                 "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
-                "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"},
                 "hi": { "name": "डार्क मोड" }
             }
         },
@@ -59,9 +56,7 @@
             "dark": false,
             "locales": {
                 "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
-                "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"},
+              
                 "hi": { "name": "लाइट मोड" }
             }
         }
