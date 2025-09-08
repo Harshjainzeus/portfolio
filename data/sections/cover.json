@@ -1,0 +1,241 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "Know me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Harsh Jain!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Mark Choi!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Mark Choi !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{최민석}}입니다!"
+            },
+            "hi": {
+                "title_short": "स्वागत है!",
+                "title_short_nav": "परिचय",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "मैं {{हर्ष जैन}} हूँ!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Banglore – KA",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "hingerharsh@gmail.com",
+                    "link": {"href": "mailto:hingerharsh@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@harshjainzeis",
+                    "link": {"href": "https://github.com/Harshjainzeus", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "harsh-jain-1a39b3188",
+                    "link": {"href": "https://www.linkedin.com/in/harsh-jain-1a39b3188/", "tooltipString": "connect_with_me"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{Something}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."},
+                "hi": { "title": "मेरे बारे में {{कुछ}}..." }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-text-img-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{SDE}} with 4+ years of experience having strong expertise in [[frontend]] technologies like [[ReactJs, Typescript]] along with experience in backend like [[pyhton, node.js]] while building scalable, interactive, and high-performance applications which aligns well with industry standards.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "hi": {"text": "<p>मैं एक {{SDE}} हूँ जिसके पास 4+ वर्षों का अनुभव है और [[फ्रंटएंड]] तकनीकों जैसे [[ReactJs, Typescript]] में गहरी विशेषज्ञता है, साथ ही [[Python, Node.js]] जैसी बैकएंड तकनीकों का भी अनुभव है। मैंने स्केलेबल, इंटरैक्टिव और उच्च-प्रदर्शन अनुप्रयोग बनाए हैं जो उद्योग मानकों के अनुरूप हैं।</p><p>मैं [[आपके साथ!]] सहयोग करने के लिए उत्सुक हूँ</p>"
+                    }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{Interest}}"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"},
+                "hi": {"title":"निजी {{रुचियाँ}}"}
+            },
+            "items": [
+                {
+                  "id": 1,
+                  "faIcon": "fa-solid fa-robot",
+                  "locales": {
+                    "en": {
+                      "title": "{{AI}} Exploring",
+                      "text": "Exploring AI tools and crafting better prompts for smarter results."
+                    },
+                    "hi": {
+                      "title": "{{एआई}} अन्वेषण",
+                      "text": "एआई टूल्स का अन्वेषण और बेहतर परिणामों के लिए प्रभावी प्रॉम्प्ट तैयार करना।"
+                    }
+                  }
+                },
+                {
+                  "id": 2,
+                  "img":"",
+                  "faIcon": "fa-solid fa-landmark",
+                  "faIconColors":{"bg":"","fill":" ","bgLight":""},
+                  "date":{"year":"2023"},
+                  "link":{"href":"","tooltipString":""},
+                  "locales": {
+                    "en": {
+                      "title": "Politics and foreign affairs",
+                      "text": "Interested in politics, governance, and geopolitical affairs."
+                    },
+                    "hi": {
+                      "title": "राजनीति और अंतर्राष्ट्रीय मामले",
+                      "text": "राजनीति, शासन और भू-राजनीतिक मामलों में रुचि।"
+                    }
+                  }
+                },
+                {
+                  "id": 3,
+                  "faIcon": "fa-solid fa-chart-line",
+                  "locales": {
+                    "en": {
+                      "title": "{{Investing}} & Finance",
+                      "text": "Analyzing market trends and geopolitics to make informed investment decisions."
+                    },
+                    "hi": {
+                      "title": "{{निवेश}} और वित्त",
+                      "text": "बाज़ार की प्रवृत्तियों और भू-राजनीति का विश्लेषण कर सूचित निवेश निर्णय लेना।"
+                    }
+                  }
+                },
+                {
+                  "id": 4,
+                  "faIcon": "fa-solid fa-plane",
+                  "locales": {
+                    "en": {
+                      "title": "{{Travel}} the world",
+                      "text": "Passionate about traveling, exploring new cuisines, and immersing myself in diverse cultures and folk ways"
+                    },
+                    "hi": {
+                      "title": "दुनिया की {{यात्रा}}",
+                      "text": "यात्रा करने, नए व्यंजनों को आज़माने और विविध संस्कृतियों व परंपराओं में खुद को डुबोने के लिए उत्साही।"
+                    }
+                  }
+                },
+                {
+                  "id": 5,
+                  "faIcon": "fa-solid fa-camera-retro",
+                  "locales": {
+                    "en": {
+                      "title": "{{Photography}} & Photoshop",
+                      "text": "Enhancing photos through creative editing techniques."
+                    },
+                    "hi": {
+                      "title": "{{फोटोग्राफी}} और फ़ोटोशॉप",
+                      "text": "रचनात्मक संपादन तकनीकों के माध्यम से फ़ोटो को बेहतर बनाना।"
+                    }
+                  }
+                },
+                {
+                  "id": 6,
+                  "faIcon": "fa-solid fa-volleyball",
+                  "locales": {
+                    "en": {
+                      "title": "Playing {{Sports}}",
+                      "text": "Active in sports including football, badminton, pickleball, and snooker."
+                    },
+                    "hi": {
+                      "title": "{{खेल}} खेलना",
+                      "text": "फुटबॉल, बैडमिंटन, पिकलबॉल और स्नूकर जैसे खेलों में सक्रिय।"
+                    }
+                  }
+                },
+                {
+                  "id": 7,
+                  "faIcon": "fa-solid fa-dumbbell",
+                  "locales": {
+                    "en": {
+                      "title": "{{Gym}} freak",
+                      "text": "I’m hooked on the belief that a healthy body creates a healthy mind."
+                    },
+                    "hi": {
+                      "title": "{{जिम}} प्रेमी",
+                      "text": "मेरा विश्वास है कि स्वस्थ शरीर एक स्वस्थ मन को जन्म देता है।"
+                    }
+                  }
+                },
+                {
+                  "id": 8,
+                  "faIcon": "fa-solid fa-person-hiking",
+                  "locales": {
+                    "en": {
+                      "title": "Trekking",
+                      "text": "Trekking through nature not only heals but speeds up the journey to wellness."
+                    },
+                    "hi": {
+                      "title": "ट्रेकिंग",
+                      "text": "प्रकृति के बीच ट्रेकिंग न केवल उपचार करती है बल्कि स्वास्थ्य की यात्रा को तेज भी करती है।"
+                    }
+                  }
+                }
+            ]
+           
+        }
+    ]
+}
