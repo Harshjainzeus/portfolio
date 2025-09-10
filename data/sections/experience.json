@@ -140,9 +140,12 @@
               "institution": "Banjara suitings ltd",
               "text": "Joined an early stage startup that wanted to revolutionize the textile industry experience by providing 3d models and real time tryon experiences by leveraging AI",
               "list": [
-                "Implemented using ReactJs and redux while using ReactThree for rendering 3d Models in canvas",
-                "Worked on TensorFlow and used GLB files for pose detection and using three to manipulate saving 25% cost",
-                "setup CI/CD pipelines through git."
+                "Developed the landing page using [[ReactJS]] and integrated ThreeJS for interactive dummy",
+                "Contributed to building an AI-powered [[chatbot]] and fine tunning it to align with inventory",
+                "Worked with [[TensorFlow]] and GLB files for pose detection, using ThreeJS to render real-time fabric overlays on canvas",
+                "Utilized ReactJS, Redux, and React-Three to render user-specific [[3D]] models with dynamic fabric replacement features and implemented functionality to manipulate 3D user models based on custom inputs using React-Three and scaling techniques",
+                "Leveraged Canvas for rendering [[2D]] models and integrated GPT APIs to generate marketable digital content from fabric inputs",
+                "Set up CI/CD pipelines using Git for streamlined deployments"
               ],
               "tags": [
                 "JavaScript",
