@@ -7,24 +7,7 @@
                 "title_long_prefix": "Here are my",
                 "title_long": "Career {{Achievements}}"
             },
-            "es": {
-                "title_short": "Logros",
-                "title_short_nav": "Logros",
-                "title_long_prefix": "Aquí están mis",
-                "title_long": "{{Logros}} Profesionales"
-            },
-            "fr": {
-                "title_short": "Réalis",
-                "title_short_nav": "Réalisations",
-                "title_long_prefix": "Voici",
-                "title_long": "Mes {{Réalisations}}"
-            },
-            "ko": {
-                "title_short": "경력 성과",
-                "title_short_nav": "경력 성과",
-                "title_long_prefix": "다음은",
-                "title_long": "{{경력 성과}}입니다"
-            },
+            
             "hi": {
   "title_short": "पुरस्कार",
   "title_short_nav": "उपलब्धियाँ",
@@ -39,10 +22,8 @@
             "id": 1,
             "component": "ArticleCards",
             "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
+                "en": { "title": "Certifications" }
+              
             },
             "settings": {
                 "order_items_by": "id",
@@ -51,15 +32,15 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "",
+                    "img": "images/pictures/imad.png",
                     "faIcon": "fa-solid fa-life-ring",
                     "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
-                    "date": {"year": 2020, "month": 12},
+                    "date": {"year": 2019, "month": 6},
                     "link": {"href": "https://www.linuxfoundation.org/", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
                             "title": "The {{Linux Foundation}}",
-                            "text": "Certified Kubernetes Administrator (CKA)"
+                            "text": "Certified Web development internship"
                         },
                         "es": {
                             "text": "Administrador de Kubernetes Certificado (CKA)"
@@ -76,23 +57,14 @@
                 {
                     "id": 2,
                     "img": "",
-                    "faIcon": "fa-brands fa-aws",
+                    "faIcon": "fa-brands fa-google",
                     "faIconColors": {"bg": "#FFD700", "fill": "#111"},
                     "date": {"year": 2021, "month": 5},
-                    "link": {"href": "https://www.aws.com/", "tooltipString": "see_certification"},
+                    "link": {"href": "", "tooltipString": "see_certification"},
                     "locales": {
                         "en": {
-                            "title": "{{Amazon}} Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS - Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 공인 솔루션 아키텍트 - 준회원"
+                            "title": "{{GCP}}",
+                            "text": "GCP certification"
                         }
                     }
                 },
