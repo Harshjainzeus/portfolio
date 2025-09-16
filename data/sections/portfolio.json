@@ -37,41 +37,25 @@
             "items": [
                 {
                     "id": 1,
-                    "categoryId": "category_apps",
+                    "categoryId": "category_web",
                     "img": "images/pictures/netflix.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {"href": "https://netflixgpt-3935f.web.app/", "tooltipString": "see_on_website", "faIcon": "fa-solid fa-film"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            "images/pictures/banner.png",
+                            "images/pictures/search.png"
                         ],
                         "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
                             "title": "Netflix + GPT",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
+                            "text": "Cloned Netflix and enhanced it with additional functionality by integrating GPT to render tagged movies and fine-tuned results.",
+                            "tags": ["GPT", "Frontend", "ReactJS", "Firebase","TMDB"]
                         }
                     }
                 },
@@ -83,38 +67,21 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://ristaapps.com/", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-chrome"},
+                            {"href": "https://play.google.com/store/apps/details?id=com.ristaapps.business", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
+                            "images/pictures/ristaapp.png"
                         ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                        "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
                             "title": "Rista restraunt app",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
+                            "text": "Restraunt management app which handles order management, inventory management, and customer management.",
+                            "tags": ["Native", "Node.js", "ReactJS","Redux"]
                         }
+                    
                     }
                 },
                 {
@@ -125,37 +92,19 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+                            {"href": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/innovaccerinc1585921027287.sol-62344-ooa?tab=overview", "tooltipString": "see_on_windows", "faIcon": "fa-brands fa-windows"},
+                            {"href": "https://innote-ui.innovaccer.com/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "youtubeVideo": "https://www.youtube.com/watch?v=-NSsprfXDWA"
                     },
                     "locales": {
                         "en": {
                             "title": "Innote UI",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
+                            "text": "Developed a cross-platform product for ACO doctors to access patient information in a structured, presentable format, enabling better analysis and more accurate prescriptions. ",
+                            "tags": ["ReactJs", "ElectronJs", "Redux","Node.js"]
                         }
+                       
                     }
                 },
                 {
@@ -166,47 +115,33 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://design.innovaccer.com/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
                         ],
                         "screenshots": [
+                            "images/pictures/masalagatsby.png",
+                            "images/pictures/masalastory.png"
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
                         "en": {
                             "title": "Masala Design System",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
+                            "text": "A design system built with <b>GatsbyJs</b>, <b>TypeScript</b>, <b>StoryBook</b>, and <b>ReactJs</b> which is used across teams leading to consistency and uniformity across teams",
+                            "tags": ["GatsyJs", "TypeScript", "StoryBook","ReactJs"]
                         }
                     }
                 },
+             
                 {
-                    "id": 5,
+                    "id": 15,
                     "categoryId": "category_apps",
-                    "img": "images/pictures/roll20.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "images/pictures/banjara.png",
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                           {"href": "https://banjarasuitings.com/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshots": [
 
@@ -216,9 +151,9 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Roll20 ",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
+                            "title": "Banjara",
+                            "text": "Engineered a 3D landing page with ReactJS and Tailwind, enhanced an AI-powered chatbot by fine-tuning with inventory data to improve accuracy by 25%, achieved 75% precision in real-time pose detection and fabric overlays using TensorFlow and Three.js, boosted personalization by 35% through React-Three model customization, and increased marketing efficiency by 35% by automating digital content creation with Canvas and GPT APIs.",
+                            "tags": ["React Js", "ThreeJs", "TensorFlow","GLB","Canvas","GPT","Redux","React-Three"]
                         }
                     }
                 },
@@ -230,9 +165,10 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://googlecloudplatform.github.io/spanner-migration-tool/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
                         ],
                         "screenshots": [
+                          
 
                         ],
                         "screenshotsAspectRatio": "",
@@ -241,35 +177,49 @@
                     "locales": {
                         "en": {
                             "title": "Harbour Bridge",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
+                            "text": "Spanner migration tool is a stand-alone open source tool for Cloud Spanner evaluation and migration, using data from an existing PostgreSQL or MySQL database. The tool ingests schema and data from either a pg_dump/mysqldump file or directly from the source database, and supports both schema and data migration",
+                            "tags": ["Web components", "Javascript"]
                         }
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 5,
                     "categoryId": "category_web",
+                    "img": "images/pictures/roll20.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://roll20.net/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
+                        ],
+                            
+                        "screenshots": [
+                            "images/pictures/roll20g1.png",
+                            "images/pictures/roll20g2.png"
+
+
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Roll20 ",
+                            "text": "Optimised Roll20.net by using lazy loading ,treeShaking ,code splitting ,reducing bundle size and improving performance score on Lighthouse from 50 to 90.",
+                            "tags": ["BackboneJs", "Javascript"]
+                        }
+                    }
+                },
+                
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/keep.png",
                     "faIcon": "fa-solid fa-guitar",
                     "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://github.com/Harshjainzeus/googlekeepclone", "tooltipString": "open_repo", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [
 
@@ -280,23 +230,8 @@
                     "locales": {
                         "en": {
                             "title": "Google Keep clone",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
+                            "text": "Cloned Google Keep using Django and NextJs",
+                            "tags": ["Django", "NextJs", "TypeScript","ChakraUi","Pyhton"]
                         }
                     }
                 },
@@ -309,48 +244,31 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-
+                            {"href": "https://github.com/Harshjainzeus/others/tree/master/othersprojects/Stackoverflow-clone-master", "tooltipString": "open_repo", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Stack Overflow Clone",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
+                            "text": "Cloned StackOverflow using Firebase for auth and firestore for database, Formik, ReactJs and NodeJs",
+                            "tags": ["Firebase","Formik","ReactJs","NodeJs"]
                         }
                     }
                 },
                 {
-                    "id": 10,
-                    "categoryId": "category_apps",
+                    "id": 9,
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/verzeo.png",
-                    "faIcon": "fa-solid fa-truck-fast",
+                 
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                            {"href": "https://github.com/Harshjainzeus/verzeo_project", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            
                         ],
                         "screenshots": [
 
@@ -361,37 +279,21 @@
                     "locales": {
                         "en": {
                             "title": "Covid Prediction Models",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "text": "Developed a COVID-19 prediction model leveraging Scikit-learn and Pandas for data preprocessing and analysis.Implemented clear visualizations using Matplotlib , while utilizing Jupyter Notebook as the primary environment for experimentation and iterative testing",
+                            "tags": ["Python", "SyckitLearn", "Pandas","Machine Learning","Jupiter"]
                         }
                     }
                 },
                 {
-                    "id": 9,
-                    "categoryId": "category_apps",
+                    "id": 10,
+                    "categoryId": "category_web",
                     "img": "images/pictures/dietpoint.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                            {"href": "https://monikamagoo.wixsite.com/mysite", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
+                            
                         ],
                         "screenshots": [
 
@@ -402,37 +304,20 @@
                     "locales": {
                         "en": {
                             "title": "Diet Point ",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "text": "Designed website using wix and added social media post using photoshop",
+                            "tags": ["wix","Photoshop"]
                         }
                     }
                 },
                 {
-                    "id": 10,
-                    "categoryId": "category_apps",
+                    "id": 11,
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/dbms.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                            {"href": "https://github.com/Harshjainzeus/Medical_shop_dbms", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [
 
@@ -443,37 +328,21 @@
                     "locales": {
                         "en": {
                             "title": "Medical Shop DBMS system",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "text": "Developed a database management system for a medical shop using PostgreSQL and NodeJs as project for school",
+                            "tags": ["DBMS","PostgreSQL","Schema","ErDiag"]
                         }
                     }
                 },
                 {
-                    "id": 11,
-                    "categoryId": "category_apps",
+                    "id": 12,
+                    "categoryId": "category_utilities",
                     "img": "images/pictures/hms.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                            {"href": "https://github.com/Harshjainzeus/hotelmanagement", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                           
                         ],
                         "screenshots": [
 
@@ -484,48 +353,20 @@
                     "locales": {
                         "en": {
                             "title": "Hotel Management System",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                            "text": "Developed a Hotel Management System as a primary project at Searce for a client, utilizing Angular and TypeScript to deliver a scalable, efficient, and user-friendly solution.",
+                            "tags": ["Angular", "TypeScript"] 
                         }
                     }
                 },
                 {
-                    "id": 11,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/stoneps.png",
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Stone Paper Scissor",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        }
-                    }
-                },
-                {
-                    "id": 11,
+                    "id": 14,
                     "categoryId": "category_apps",
                     "img": "images/pictures/ecom.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                           {"href": "https://github.com/Harshjainzeus/ecommerce", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshots": [
 
@@ -536,48 +377,21 @@
                     "locales": {
                         "en": {
                             "title": "Ecommerce App",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                            "text": "Built a full-stack E-commerce application using React.js and Node.js, implementing end-to-end features from product browsing and cart management to secure payment processing.",
+                            "tags": ["React Js", "Context Apis" ,"NodeJs","stripe"]
                         }
                     }
                 },
+                
                 {
-                    "id": 11,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/banjara.png",
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Banjara suitings",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        }
-                    }
-                },
-                {
-                    "id": 11,
-                    "categoryId": "category_apps",
+                    "id": 16,
+                    "categoryId": "category_web",
                     "img": "images/pictures/solfit.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                           {"href": "https://solfit.in/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshots": [
 
@@ -588,22 +402,20 @@
                     "locales": {
                         "en": {
                             "title": "Solfit Solar",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                            "text": "Developed and deployed a static website for a solar firm in Jodhpur using Next.js and TypeScript, delivering a fast, SEO-friendly, and responsive platform that effectively showcased the company’s services and improved its online presence",
+                            "tags": ["NextJs", "TypeScript", "SEO"]
                         }
                     }
                 },
                 {
-                    "id": 11,
-                    "categoryId": "category_apps",
+                    "id": 17,
+                    "categoryId": "category_app",
                     "img": "images/pictures/dv9.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                           {"href": "https://dv9sutra.com/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshots": [
 
@@ -614,22 +426,20 @@
                     "locales": {
                         "en": {
                             "title": "DV9 Sutra tea",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                            "text": "Pioneered a full-stack WebApp for DV9 Sutra Tea using React.js and TypeScript, integrated with Firestore for real-time data management and Stripe for secure payment processing, delivering a seamless shopping and checkout experience",
+                            "tags": ["React Js", "TypeScript", "Tailwind CSS","Firestore","Stripe"]
                         }
                     }
                 },
                 {
-                    "id": 11,
-                    "categoryId": "category_apps",
+                    "id": 18,
+                    "categoryId": "category_web",
                     "img": "images/pictures/gameskraft.png",
                     "faIcon": "fa-solid fa-truck-fast",
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
+                           {"href": "https://gameskraft.in/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ],
                         "screenshots": [
 
@@ -640,8 +450,8 @@
                     "locales": {
                         "en": {
                             "title": "GameKraft",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+                            "text": "Built and deployed a static website for GameKraft using React.js and TypeScript, ensuring a responsive design, optimized performance, and scalable codebase to enhance user experience and brand visibility",
+                            "tags": ["React Js", "TypeScript", "Zustland"]
                         }
                     }
                 }

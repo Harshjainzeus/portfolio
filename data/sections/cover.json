@@ -7,24 +7,6 @@
                 "title_long_prefix": "Hello...",
                 "title_long": "I'm {{Harsh Jain!}}"
             },
-            "es": {
-                "title_short": "¡Saludos!",
-                "title_short_nav": "Sobre mí",
-                "title_long_prefix": "Hola...",
-                "title_long": "Soy {{Mark Choi!}}"
-            },
-            "fr": {
-                "title_short": "Salut !",
-                "title_short_nav": "À propos",
-                "title_long_prefix": "Salut...",
-                "title_long": "Je suis {{Mark Choi !}}"
-            },
-            "ko": {
-                "title_short": "환영합니다!",
-                "title_short_nav": "소개",
-                "title_long_prefix": "안녕하세요...",
-                "title_long": "저는 {{최민석}}입니다!"
-            },
             "hi": {
                 "title_short": "स्वागत है!",
                 "title_short_nav": "परिचय",
