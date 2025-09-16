@@ -39,7 +39,7 @@ jsonUtils.overwrite(jSettingsPath, {
     preloaderSettings: {
         enabled: true,
         title: "React <b>Portfolio</b>",
-        subtitle: "by Ryan Balieiro",
+        subtitle: "harsh jain",
         logoOffset: {
             right: 14,
             top: 2,

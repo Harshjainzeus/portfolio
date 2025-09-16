@@ -69,7 +69,7 @@ const AppEssentialsWrapper = ({children}) => {
             }
         })
 
-        api.analytics.reportVisit().then(() => {})
+        
     }, [])
 
     const _applyDeveloperSettings = (settings) => {
