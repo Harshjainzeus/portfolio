@@ -210,31 +210,28 @@
                         }
                     }
                 },
-                
                 {
-                    "id": 7,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/keep.png",
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "id": 13,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/youtube.svg",
+                    "faIcon": "fa-solid fa-truck-fast",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com/Harshjainzeus/googlekeepclone", "tooltipString": "open_repo", "faIcon": "fa-brands fa-github"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                           {"href": "https://youtube-clone-git-master-harsh-jains-projects-f74ce4d8.vercel.app/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
+                        ]
+                        
                     },
                     "locales": {
                         "en": {
-                            "title": "Google Keep clone",
-                            "text": "Cloned Google Keep using Django and NextJs",
-                            "tags": ["Django", "NextJs", "TypeScript","ChakraUi","Pyhton"]
+                            "title": "Enhanced Youtube Clone",
+                            "text": "Developed a YouTube clone featuring infinite comment nesting and live chat functionality, utilizing Redux for state management and deployed on Vercel.",
+                            "tags": ["React Js", "Redux" ,"Vercel","Tailwind CSS"]
                         }
                     }
                 },
+                
+              
                 
                 {
                     "id": 8,
@@ -281,6 +278,30 @@
                             "title": "Covid Prediction Models",
                             "text": "Developed a COVID-19 prediction model leveraging Scikit-learn and Pandas for data preprocessing and analysis.Implemented clear visualizations using Matplotlib , while utilizing Jupyter Notebook as the primary environment for experimentation and iterative testing",
                             "tags": ["Python", "SyckitLearn", "Pandas","Machine Learning","Jupiter"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/keep.png",
+                    "faIcon": "fa-solid fa-guitar",
+                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/Harshjainzeus/googlekeepclone", "tooltipString": "open_repo", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Google Keep clone",
+                            "text": "Cloned Google Keep using Django and NextJs",
+                            "tags": ["Django", "NextJs", "TypeScript","ChakraUi","Pyhton"]
                         }
                     }
                 },
@@ -358,6 +379,8 @@
                         }
                     }
                 },
+              
+               
                 {
                     "id": 14,
                     "categoryId": "category_apps",
