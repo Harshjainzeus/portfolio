@@ -218,7 +218,7 @@
                     "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
                     "preview": {
                         "links": [
-                           {"href": "https://youtube-clone-git-master-harsh-jains-projects-f74ce4d8.vercel.app/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
+                           {"href": "https://youtube-clone-ecru-gamma.vercel.app/", "tooltipString": "see_on_web", "faIcon": "fa-brands fa-chrome"}
                         ]
                         
                     },
