@@ -74,7 +74,7 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "dateStart": { "year": 2022, "month": 1},
-          "dateEnd": { "year": 2023, "month": 2 },
+          "dateEnd": { "year": 2023, "month": 6 },
           "locales": {
             "en": {
               "title": "{{Software}} Engineer",
@@ -101,7 +101,7 @@
           "img": "images/pictures/dotpe.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
-          "dateStart": { "year": 2023, "month": 7 },
+          "dateStart": { "year": 2023, "month": 8 },
           "dateEnd": { "year": 2023, "month": 11 },
           "locales": {
             "en": {
@@ -131,13 +131,13 @@
           "faIcon": "fa-brands fa-apple",
           "faIconColors": { "bg": "#111", "fill": "#EEE" },
           "dateStart": { "year": 2024, "month": 1 },
-          "dateEnd": { "year": 2025, "month": 6 },
+          "dateEnd": { "year": 2025, "month": 8 },
           "locales": {
             "en": {
               "title": "{{Frontend}} Developer",
               "province": "Rajasthan",
               "country": "India",
-              "institution": "Banjara suitings ltd",
+              "institution": "Banjara Clothing ltd",
               "text": "Joined an early stage startup that wanted to revolutionize the textile industry experience by providing 3d models and real time tryon experiences by leveraging AI",
               "list": [
                 "Developed the landing page using [[ReactJS]] and integrated ThreeJS for interactive dummy",
@@ -145,7 +145,9 @@
                 "Worked with [[TensorFlow]] and GLB files for pose detection, using ThreeJS to render real-time fabric overlays on canvas",
                 "Utilized ReactJS, Redux, and React-Three to render user-specific [[3D]] models with dynamic fabric replacement features and implemented functionality to manipulate 3D user models based on custom inputs using React-Three and scaling techniques",
                 "Leveraged Canvas for rendering [[2D]] models and integrated GPT APIs to generate marketable digital content from fabric inputs",
-                "Set up CI/CD pipelines using Git for streamlined deployments"
+                "Set up CI/CD pipelines using Git for streamlined deployments",
+                "Pioneered development of offer managemnet tool using NextJS and TypeScript enabling real-time tracking of offers and reducing manual effort and errors by 45%",
+"Implemented the Stock Management module using Firebase reducing stock discrepancies by 30%, while improving inventory update by 40%"
               ],
               "tags": [
                 "JavaScript",
@@ -155,7 +157,9 @@
                 "TanStack Query",
                 "graphql",
                 "Docker",
-                "ThreeJs"
+                "ThreeJs",
+                "Firebase",
+                "NextJS"
               ]
             },
             "es": {
