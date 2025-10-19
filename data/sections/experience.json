@@ -131,7 +131,7 @@
           "faIcon": "fa-brands fa-apple",
           "faIconColors": { "bg": "#111", "fill": "#EEE" },
           "dateStart": { "year": 2024, "month": 1 },
-          "dateEnd": { "year": 2025, "month": 8 },
+          "dateEnd": { "year": 2025, "month": 10 },
           "locales": {
             "en": {
               "title": "{{Frontend}} Developer",
