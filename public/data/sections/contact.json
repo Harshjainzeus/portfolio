@@ -65,8 +65,8 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "(+91)9119144513",
-                    "link": {"href": "tel:09119144513", "tooltipString": "call_me"},
+                    "label": "(+91)9461117569",
+                    "link": {"href": "tel:09461117569", "tooltipString": "call_me"},
                     "locales": {
                         "en": {"title": "Phone"},
                         "hi": {
@@ -80,8 +80,8 @@
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "harshzeus0707@gmail.com",
-                    "link": {"href": "mailto:harshzeus0707@gmail.com", "tooltipString": "email_me"},
+                    "label": "hingerharsh@gmail.com",
+                    "link": {"href": "mailto:hingerharsh@gmail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"}
                        
